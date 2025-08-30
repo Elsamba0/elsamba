@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            h1{
+                background-color: aqua;
+                color: #000;
+                border-radius: 5px;
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>hi <%=name%> to ejs</h2>
+        <h4>ejs file with render</h4>
+        <% if(name == "Ahmed"){ %>
+            <h1>Hi Admin</h1>
+        <%} %>
+    </body>
+</html>
