@@ -15,7 +15,7 @@ mongo.
 
 const app = express();
 app.use(express.json());
-const port = 5500;
+const port = process.env.PORT || 5500;
 
 //mongodb+srv://elsamba:<db_password>@users.vhwh84s.mongodb.net/?retryWrites=true&w=majority&appName=Users
 
